@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+
+
+
+.modal {
+    background: #b42727;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    padding: 20px 20px;
+    transform: scale(0);
+}
+.close-btn {
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: -5px;
+    right: 10px;
+}
+.blur-window{
+    background: rgba(121, 113, 113, 0.83);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: none;
+
+}
